@@ -55,6 +55,10 @@ function App() {
               <div className="temp">
                 {Math.round(weather.main.temp)}°c
               </div >
+              <div className="humidity">
+                <p>Humidity: {Math.round(weather.main.humidity)}%</p>
+                <p>Wind: {weather.wind.speed}m/s</p>
+              </div >
               <div>
                 <img className="city-icon" src={`https://openweathermap.org/img/wn/${weather.weather[0].icon}@2x.png`} alt={weather.weather[0].description} />
                 <p className="weather">{weather.weather[0].description}</p>

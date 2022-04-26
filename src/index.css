@@ -100,7 +100,27 @@ main {
 
 .weather-box .weather {
   color: #FFF;
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 700;
   text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+}
+
+.humidity {
+  position: relative;
+  display: inline-block;
+  margin-top: -30px;
+  background: linear-gradient(143.98deg, rgba(255, 255, 255, 0.11) 0%, rgba(255, 255, 255, 0.22) 100%);
+  backdrop-filter: blur(30px);
+
+  padding: 15px 15px;
+
+  color: #FFF;
+  font-size: 35px;
+  font-weight: 500;
+
+  border-radius: 16px;
+
+  text-shadow: 3px 6px rgba(50, 50, 70, 0.5);
+  text-align: center;
+  box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
 }
