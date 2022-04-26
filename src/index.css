@@ -9,7 +9,7 @@ body {
 }
 
 .app {
-  background-image: url('./assets/cold-br.jpg');
+  background-image: url('./assets/fon.jpg');
   /* background-color: #F0F0F0; */
   background-size: cover;
   background-position: bottom;
@@ -17,7 +17,7 @@ body {
 }
 
 .app.warm {
-  background-image: url('./assets/warm-br.jpg');
+  background-image: url('./assets/fon.jpg');
 }
 
 main {
